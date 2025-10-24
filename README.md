@@ -21,7 +21,7 @@ Validar funcionalidades clave de una aplicación web de e-commerce mediante prue
 ---
 
 ## 📁 Estructura del proyecto
-
+```text
 pre-entrega-automation-testing-silvia-duarte/
 ├── README.md               # Documentación principal del proyecto  
 ├── run_tests.py            # Script para ejecutar todas las pruebas  
@@ -32,7 +32,8 @@ pre-entrega-automation-testing-silvia-duarte/
 └── tests/                  # Carpeta principal de pruebas  
     ├── test_login.py       # Prueba de login con validaciones de URL, título y encabezado  
     ├── test_inventory.py   # Validaciones sobre productos, interfaz y estructura de inventario  
-    └── test_shoppingcart.py# Pruebas de interacción con el carrito de compras  
+    └── test_shoppingcart.py# Pruebas de interacción con el carrito de compras 
+``` 
 
 ## 🧪 Ejecución de pruebas
 Para ejecutar todas las pruebas y generar el reporte HTML se debe correr el archivo run_tests.py.
